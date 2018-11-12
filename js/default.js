@@ -7,9 +7,9 @@ if(answer === number){
   message = 'あたり！';
 }else if(answer < number){
   message = '残念！もっと大きいです';
-}eles if(number < answer){
+}else if(number < answer){
   message = '残念！もっと小さいです';
-}eles{
+}else{
   message = '0～3の数字を入力してください';
 }
 
